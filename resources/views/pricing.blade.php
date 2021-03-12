@@ -64,8 +64,8 @@
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="about-us.html">Chamb for Business</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works</a></li>
+                                 <li><a href={{url('about-us')}}>Chamb for Business</a></li>
                               </ul>
                            </div>
                         </div>
@@ -97,8 +97,8 @@
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
             <li><a href="#">Help</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Chamb for Business</a></li>
+            <li><a href={{url('howitworks')}}>How it works</a></li>
+            <li><a href={{url('about-us')}}>Chamb for Business</a></li>
          </ul>
       </div>
       <div class="page-template-pricing">

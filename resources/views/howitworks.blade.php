@@ -62,8 +62,8 @@
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="about-us.html">Chamb for Business</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works</a></li>
+                                 <li><a href={{url('about-us')}}>Chamb for Business</a></li>
                               </ul>
                            </div>
                         </div>
@@ -95,8 +95,8 @@
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
             <li><a href="#">Help</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Chamb for Business</a></li>
+            <li><a href={{url('howitworks')}}>How it works</a></li>
+            <li><a href={{url('about-us')}}>Chamb for Business</a></li>
          </ul>
       </div>
       <div class="section-how-it-works">
@@ -469,8 +469,8 @@
                               <h2>SELL ON chamb</h2>
                               <ul>
                                  <li><a href="#">Create account</a></li>
-                                 <li><a href="howitworks.html">How it works suppliers</a></li>
-                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works suppliers</a></li>
+                                 <li><a href={{url('pricing')}}>Pricing</a></li>
                                  <li><a href="#">FAQ for Suppliers</a></li>
                               </ul>
                            </div>
@@ -478,8 +478,8 @@
                               <h2>BUY ON chamb</h2>
                               <ul>
                                  <li><a href="#">Create account</a></li>
-                                 <li><a href="#">How it works buyers</a></li>
-                                 <li><a href="#">Categories</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works buyers</a></li>
+                                 <li><a href={{url('category')}}>Categories</a></li>
                                  <li><a href="#">FAQ for buyers</a></li>
                               </ul>
                            </div>

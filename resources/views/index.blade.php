@@ -94,7 +94,7 @@
       </div>
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
-            <li><a href="#">Help</a></li>
+            <li><a href={{url('cms')}}>Help</a></li>
             <li><a href="howitworks.html">How it works</a></li>
             <li><a href="#">chamb for Business</a></li>
          </ul>
@@ -130,7 +130,7 @@
                </div>
                <div class="row clearfix">
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}>
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/1.png" alt="" />
@@ -138,7 +138,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/2.png" alt="" />
@@ -146,7 +146,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/4.png" alt="" />
@@ -154,7 +154,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/5.png" alt="" />
@@ -162,7 +162,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/10.png" alt="" />
@@ -170,7 +170,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/11.png" alt="" />
@@ -178,7 +178,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/12.png" alt="" />
@@ -186,7 +186,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href={{url('productpage')}}">
                         <div class="box-img">
                            <h4>Product</h4>
                            <img src="b/images/product/13.png" alt="" />
@@ -526,18 +526,18 @@
                               <h2>SELL ON chamb</h2>
                               <ul>
                                  <li><a href="#">Create account</a></li>
-                                 <li><a href="howitworks.html">How it works suppliers</a></li>
-                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works suppliers</a></li>
+                                 <li><a href={{url('pricing')}}>Pricing</a></li>
                                  <li><a href="#">FAQ for Suppliers</a></li>
                               </ul>
                            </div>
                            <div class="col-sm-4">
                               <h2>BUY ON chamb</h2>
                               <ul>
-                                 <li><a href="#">Create account</a></li>
-                                 <li><a href="#">How it works buyers</a></li>
-                                 <li><a href="#">Categories</a></li>
-                                 <li><a href="#">FAQ for buyers</a></li>
+                                 <li><a href={{url('profile')}}>Create account</a></li>
+                                 <li><a href={{url('howitworks')}}>How it works buyers</a></li>
+                                 <li><a href={{url('category')}}>Categories</a></li>
+                                 <li><a href={{url('Welcome')}}>FAQ for buyers</a></li>
                               </ul>
                            </div>
                            <div class="col-sm-4">
